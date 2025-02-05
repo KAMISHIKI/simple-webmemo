@@ -10,9 +10,7 @@ export default function Home() {
         <meta name="keywords" content="メモ帳, ブラウザメモ, オンラインメモ, 無料メモ, 簡単メモ, テキストエディタ, シンプルメモ, 安全メモ, アイデア出し, TODO管理, 議事録" />
         <meta name="og:title" content="シンプルブラウザメモ帳 - 簡単・安全なオンラインメモアプリ" />
         <meta name="og:description" content="世界一シンプルなブラウザメモ帳。インストール不要、無料で使えるオンラインメモアプリ。テキストを安全に保存し、いつでもどこでもアクセスできます。アイデア出し、TODO管理、議事録作成に最適。" />
-        <meta name="og:url" content="https://your-domain.com" /> {/* 実際のドメインに置き換えてください */}
-        <meta name="og:image" content="/og-image.png" /> {/* OGイメージへのパスを置き換えてください */}
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="og:url" content="https://mymemo.travel-lab.jp/" /> {/* 実際のドメインに置き換えてください */}
       </Head>
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-3xl font-bold mb-4 text-gray-800 text-center">シンプルブラウザメモ帳</h1>
@@ -24,7 +22,7 @@ export default function Home() {
         </p>
 
         <div className="flex justify-center mb-8">
-          <Link href={'/app'} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+          <Link href={'/main'} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
             メモを始める
           </Link>
         </div>

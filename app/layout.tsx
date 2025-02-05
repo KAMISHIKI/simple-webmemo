@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
+import NextTopLoader from 'nextjs-toploader';
 
 const NotoSansJP = Noto_Sans_JP({
   variable: "--font-noto-sans",
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body
         className={NotoSansJP.className}
       >
+        <NextTopLoader />
         {children}
       </body>
     </html>
