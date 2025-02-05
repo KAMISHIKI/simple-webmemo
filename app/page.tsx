@@ -1,17 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
-import { useEffect } from "react";
-import { useRouter } from "next/router";
 
 export default function Home() {
-  const router = useRouter();
-
-  useEffect(() => {
-    if (router.pathname === "/app") {
-      router.push("/app");
-    }
-  }, [router]);
-
   return (
     <>
       <Head>
