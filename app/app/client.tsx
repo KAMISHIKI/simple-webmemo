@@ -5,7 +5,7 @@ import { useCookies } from "react-cookie";
 
 export default function MemoAppClient() {
     const [memoContent, setMemoContent] = useState<string>()
-    const [cookies, setCookie, removeCookie] = useCookies();
+    const [cookies, setCookie] = useCookies();
     
     // 編集されたらサーバーから取得できるcookieに保存
     useEffect(() => {
